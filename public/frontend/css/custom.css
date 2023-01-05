@@ -1,0 +1,189 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins';
+}
+
+.banner {
+    background: linear-gradient(169.2deg, #8BC43F 26.53%, rgba(255, 255, 255, 0) 271.72%);
+}
+.title{
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 81px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #252525;
+}
+
+.subtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #252525;
+
+
+}
+
+.post-info{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 30px;
+    height: 90px;
+    background: #97D446;
+    border-radius: 5px;
+
+}
+
+.author-name{
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    border-right: 2px solid white;
+    color: #FFFFFF;
+
+}
+
+
+.post-date{
+   margin:auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    border-right: 2px solid white;
+
+    color: #FFFFFF;
+}
+.post-category{
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.post-details{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.card-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+    color: #000000;
+
+}
+
+.card-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #393939;
+}
+
+.card-btn{
+    background: #FFFFFF;
+    border: 1px solid #8BC43F;
+    border-radius: 10px;
+}
+
+.search .form-control{
+    background: #FFFFFF;
+    border: 1px solid #85C32D;
+    border-radius: 5px;
+}
+
+#button-search{
+    background: linear-gradient(137.06deg, #97D446 1.96%, #6EAC0D 115.89%);
+    border-radius: 0px 5px 5px 0px;
+}
+.card-header{
+    margin: 30px;
+    background: linear-gradient(272.57deg, #97D446 5.96%, #6EAC0D 114.12%);
+    border-radius: 6px !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+}
+.card-body-side{
+    margin: 30px;
+}
+.recent{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    color: #000000;
+}
+.tags{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px;
+    padding: 10px 15px;
+    gap: 10px;
+
+    background: #F0F0F0;
+    border-radius: 3px;
+
+}
+
+
+.post-info-details{
+    display: inline-block;
+    flex-direction: row;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+}
+
+.author-name-details {
+    border-right: 1px solid black;
+    color: #252525;
+
+}
+.post-date-details {
+    border-right: 1px solid black;
+    color: #252525;
+}
+
+.post-category-details {
+    border-right: 1px solid black;
+    color: #252525;
+}
+.post-show-details{
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.comment-icon{
+    color: #97D446;
+}
